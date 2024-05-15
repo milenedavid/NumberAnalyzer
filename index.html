@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Number Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Number Analyzer</h1>
+  </header>
+  <section>
+    <div>
+      <p>Enter a number from 1 to 100: </p>
+      <input type="number" id ="number">
+      <div>
+        <button id="button" onclick = "add()" > Add </button>
+      </div>
+    </div>
+    
+    <div>
+      <select id="list" name ="list" size="10"></select>
+      <div>
+        <button id="verify" onclick= "verify()" > Verify </button>
+        <button id="reset" onclick="reset()"> Reset </button>
+      </div>
+    </div>
+    <div id="res"></div>
+  </section>
+  <footer> 
+    <p>&copy; Milene David </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
